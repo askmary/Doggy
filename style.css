@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100&family=Mochiy+Pop+P+One&family=Montagu+Slab:wght@100&display=swap");
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Malgun Gothic";
+}
+::-webkit-scrollbar{
+    width:5px;
+  }
+  ::-webkit-scrollbar-track{
+    background:#fff;
+  }
+  ::-webkit-scrollbar-thumb{
+    width:2px;
+    background: #1C1C1C;
+    border-radius: 30px;
+  }
+header{
+    width:100%;
+    height:12vh; 
+}
+.header-section{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:100%;
+    height:12vh;
+    background-color:#F8F8FF;
+    box-shadow: 0px 3px 6px #00000029;
+    position: fixed; 
+}
+.logo{
+    width:150px;
+}
+nav{
+    width:800px;
+}
+.homelist{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    list-style:none;
+}
+.header-item{
+    text-transform:uppercase;
+    font-weight:bold;
+}
+.header-item:hover{
+    cursor:pointer;
+    color: gold;
+}
+main{
+    width:100%;
+}
+.doggyhouse-section{
+    background-image: url('img/Banner.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    width:100%;
+    height:47rem;
+}
+.section-text{
+    height: 68vh;
+    width:50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-text{
+    width:40vw;
+    height:34vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    color:#6D4545;
+}
+h1{
+    font-size:2.5em;
+    font-weight:900;
+}
+.doghouse-h2{
+    font-weight:500;
+    font-size:1.9rem;
+}
+.div-text p{
+    width:77%;
+    font-size:0.9em;
+}
+.btn1{
+    width:30%;
+    height:6vh;
+    border:none;
+    border-radius: 5px;
+    background-color: #FEAF02;
+    color:white;
+    font-size: 1.2em;
+    cursor:pointer;
+    margin-top: 1vh;
+    transition: 1s all;
+}
+.btn1:hover{
+    transform: scale(1.1);
+}
+.dogs{
+    width:100%;
+    height:50vh;
+    border:2px solid black;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.dog1{
+    width:12vw;
+    height:35vh;
+    overflow: hidden;
+}
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:60vw;
+    height:42vh;
+}
+.dog1 img{
+    width:12vw;
+}
+.title{
+    color:#373737;
+    font-size:1.1rem;
+    text-align:center;
+    font-weight:bold;
+    padding-bottom:1vh;
+}
+.btn2{
+    background-color:#FEAF02;
+    border:none;
+    width:10vw;
+    height:5vh;
+    color:white;
+    margin-left:1vw;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all;
+}
+.btn2:hover{
+    background-color: #373737;
+    transform: scale(1.1);
+}
