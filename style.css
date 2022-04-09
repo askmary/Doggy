@@ -107,7 +107,6 @@ h1{
 .dogs{
     width:100%;
     height:50vh;
-    border:2px solid black;
     display: flex;
     align-items:center;
     justify-content:center;
@@ -148,4 +147,163 @@ h1{
 .btn2:hover{
     background-color: #373737;
     transform: scale(1.1);
+}
+.why-section{
+    background-image:url('img/Banner\ why.png');
+    width:100%;
+    height:32em;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    color:#373737;
+}
+.div-whydog{
+    width:50vw;
+    height:67vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.div-textwhy{
+    width:30vw;
+    height:40vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+.div-textwhy p{
+    width:87%;
+}
+.div-textwhy ul{
+    list-style:none;
+}
+.div-textwhy ul img{
+    width:15px;
+}
+.video-section{
+    background:#FEAF02;
+    width:100%;
+    height:32em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.video-section h2{
+    color:white;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.video-div{
+    width:70vw;
+    height:50vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.white{
+    background-color: #ffff;
+    width:30vw;
+    height:44.7vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:2vh;
+}
+.white p{
+    font-size:1.3rem;
+    margin: 2vh auto; 
+    color: #373737;
+}
+.pessoa{
+    background-image:url('img/pexels-norbert-kundrak-1677533.png');
+    background-image:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width:29.5vw;
+    height:17rem;
+    margin-top:0.5vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.pessoa2{
+    background-image:url('img/pexels-dominika-roseclay-1139793.png');
+    background-image:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    width:29.5vw;
+    height:17rem;
+    margin-top:0.5vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.play{
+    cursor: pointer;
+}
+footer{
+    width:100%;
+    height:32em;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    background-color:#3C4049;
+    color:#FFFFFF;
+}
+.foot-section{
+    width:70vw;
+    height:30vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.foot-section figure{
+    width:7vw;
+    height:15vh;
+}
+.location{
+    width:12vw;
+    height:28vh;
+}
+.location p{
+    font-size:1rem;
+    padding-top:0.6vh;
+}
+.h2foot{
+    margin-bottom:2.2vh;
+    font-size:1.2rem;
+}
+.care{
+    width:15vw;
+    height:28vh;
+}
+.care ul{
+    list-style:none;
+    font-size:1rem;
+    padding-top:0.6vh;
+}
+.links{
+    width:12vw;
+    height:28vh;
+}
+.links ul{
+    list-style:none;
+    font-size:1rem;
+    padding-top:0.6vh;
+}
+.socials{
+    width:12vw;
+    height:28vh;
+}
+.socials ul{
+    list-style:none;
+    font-size:1rem;
+    padding-top:0.6vh;
+}
+.copyright{
+    width:100%;
+    background-color:#2E2F34;
+    color:white;
 }
